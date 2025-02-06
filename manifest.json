@@ -1,0 +1,21 @@
+{
+    "name": "Warframe Wiki Redirect",
+    "description": "Redirects the Warframe Fandom wiki to the official Warframe wiki",
+    "manifest_version": 3,
+    "version": "1.0",
+    "permissions": [
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": [
+      "*://warframe.fandom.com/*",
+      "*://wiki.warframe.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "Wiki.png"
+    }
+  }
+  
