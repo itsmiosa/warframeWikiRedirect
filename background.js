@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(() => {
           action: {
             type: "redirect",
             redirect: {
-              regexSubstitution: "https://wiki.warframe.com/w/\\1"
+              regexSubstitution: "https://wiki.warframe.com/w/$1"
             }
           },
           condition: {
@@ -16,7 +16,6 @@ chrome.runtime.onInstalled.addListener(() => {
           }
         }
       ],
-      removeRuleIds: [1]
     });
   });
   
