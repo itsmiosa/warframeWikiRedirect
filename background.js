@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(() => {
           action: {
             type: "redirect",
             redirect: {
-              regexSubstitution: "https://wiki.warframe.com/w/$1"
+              regexSubstitution: "https://wiki.warframe.com/w/\\1"
             }
           },
           condition: {
