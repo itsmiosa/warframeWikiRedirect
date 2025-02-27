@@ -4,7 +4,7 @@
     "manifest_version": 3,
     "version": "1.0",
     "permissions": [
-      "declarativeNetRequest",
+      "declarativeNetRequest"
     ],
     "host_permissions": [
       "*://warframe.fandom.com/*",
